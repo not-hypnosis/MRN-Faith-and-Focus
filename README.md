@@ -1,30 +1,83 @@
-# MRN Focus V1.0.0
+# 🧠 MRN Focus V1.0.0
 
-MRN Focus is a lightweight desktop timer for focused work and restorative breaks. It runs locally and keeps no account or network connection.
+**Focus on what matters. Rest when it counts.**
 
-## Features
+MRN Focus is a lightweight desktop productivity timer designed to help you maintain focus, build consistent work habits, and take restorative breaks.
 
-- Focus (25 minutes by default), Short Break (5 minutes), and Long Break (15 minutes)
-- Configurable Focus sessions from 1 to 180 minutes
-- Start, pause, resume, reset, and keyboard shortcuts (Space and R)
-- Animated session progress and a completed Focus-session counter
-- Offline motivational messages, rotated during Focus sessions
-- In-app completion notification
+Built with Python and Tkinter, it offers a simple, distraction-free experience. It runs entirely offline, requires no account, and makes no network connections.
 
-## Technology
+## ✨ Features
 
-Python 3 with Tkinter/ttk and the Python standard library. The standalone Windows executable is packaged with PyInstaller.
+- **Focus Timer:** 25-minute default sessions, configurable from 1 to 180 minutes.
+- **Short Break:** 5-minute recovery sessions.
+- **Long Break:** 15-minute extended breaks.
+- **Timer Controls:** Start, pause, resume, and reset.
+- **Keyboard Shortcuts:** Space to start/pause and R to reset.
+- **Animated Progress:** Visual session progress throughout each timer.
+- **Session Tracking:** Automatically counts completed Focus sessions.
+- **Motivational Messages:** Offline motivational messages during Focus sessions.
+- **Completion Notifications:** In-app notifications when a session finishes.
 
-## Run from Python
+## 🖥️ Technology
 
-Install Python 3 with Tkinter, then run from this directory:
+- Python 3
+- Tkinter / ttk
+- Python Standard Library
+- PyInstaller (standalone Windows packaging)
+
+## 📥 Installation
+
+### Option 1 — Standalone Windows Application
+
+1. Visit the [Releases](../../releases) section.
+2. Download `MRN Focus.exe` from the latest release.
+3. Place it in your preferred location.
+4. Double-click to launch.
+
+No separate Python installation is required.
+
+### Option 2 — Run from Source
+
+1. Install Python 3 with Tkinter.
+2. Clone or download this repository.
+3. Make sure `mrn_focus.ico` is in the same directory as the Python script.
+4. Open a terminal in the project directory.
+5. Run:
 
 ```powershell
 python focus_mrn.py
 ```
 
-Keep `mrn_focus.ico` beside the script.
+## 🔒 Privacy & Offline Usage
 
-## Standalone Windows app
+MRN Focus is designed to operate locally.
 
-Run `dist\MRN Focus.exe`. The executable is a single-file, windowed build and includes its application icon.
+- No account or registration required.
+- No network connection required.
+- No online tracking or synchronization.
+- No external services required for normal operation.
+
+## 📁 Project Structure
+
+```text
+MRN-Faith-and-Focus/
+│
+├── focus_mrn.py
+├── focus_mrn_icon.png
+├── mrn_focus.ico
+├── README.md
+└── .gitignore
+```
+
+## 🗺️ Project Status
+
+**Version:** 1.0.0  
+**Status:** Initial Stable Release  
+**Platform:** Windows  
+**Distribution:** Standalone executable and Python source
+
+---
+
+Developed with ❤️ by **MRN** 👑
+
+*Focus. Recharge. Repeat.*
